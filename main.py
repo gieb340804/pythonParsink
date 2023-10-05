@@ -67,7 +67,7 @@ for a in news:
 async def st():
     
     while True: 
-        bot.send_message(chat_id, news_text)
+        bot.send_message(chat_id, news_tex)
         time.sleep(25)
         
 st()
